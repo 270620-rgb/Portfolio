@@ -41,8 +41,8 @@ export default function AboutPage() {
               <div className="text-center">
                 <div className="relative w-64 h-64 mx-auto mb-6">
                   <Image
-                    src="/niloybhowmick.png"
-                    alt="Niloy Bhowmick"
+                    src="/aka1.png"
+                    alt="Akash Dhaliwal"
                     fill
                     className="rounded-full object-cover"
                   />
