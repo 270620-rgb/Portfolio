@@ -16,17 +16,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "YouTube",
-      href: "https://www.youtube.com/@itsniloybhowmick",
+      href: "https://youtube.com/@zeestatusandmashups3879",
       icon: Youtube,
     },
     {
       name: "Instagram",
-      href: "https://instagram.com/its.niloybhowmick",
+      href: "https://www.instagram.com/skylinemedia14",
       icon: Instagram,
     },
     {
       name: "Facrbook",
-      href: "https://instagram.com/its.niloybhowmick",
+      href: "https://www.facebook.com/profile.php?id=61552395771574",
       icon: Instagram,
     },
     {
