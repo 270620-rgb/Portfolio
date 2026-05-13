@@ -35,11 +35,6 @@ export default function Footer() {
       icon: Linkedin,
     },
     {
-      name: "Twitter",
-      href: "#",
-      icon: Twitter,
-    },
-    {
       name: "Email",
       href: "mailto:contact.niloybhowmick@gmail.com",
       icon: Mail,
