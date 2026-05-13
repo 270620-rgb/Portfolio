@@ -89,7 +89,7 @@ export default function HomePage() {
 
             <h2 className="text-5xl md:text-7xl font-bold mb-8 text-white tracking-tight relative z-10">
               <span className="bg-gradient-to-r from-white via-blue-100 to-gray-400 bg-clip-text text-transparent">
-                My Video Projects
+                Your Vision. My Creativity.
               </span>
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
