@@ -51,9 +51,7 @@ export default function Footer() {
               Akash Dhaliwal
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Video Editor and Motion Graphics Designer passionate about
-              creating visual stories with style, precision, and cinematic
-              magic.
+              Filmmaker, Writer & Video Editor creating cinematic visuals, powerful storytelling, and emotionally engaging content with creativity, style, and precision. 🎬🔥
             </p>
           </div>
 
