@@ -25,7 +25,7 @@ export default function AboutPage() {
             About Me
           </h1>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            Hey there! I'm Ghussa Bondu, a passionate Video Editor and Motion
+            Hey there! I'm Akash Dhaliwal, a passionate Video Editor and Motion
             Graphics Designer with a deep love for storytelling through visuals.
           </p>
         </motion.div>
@@ -48,7 +48,7 @@ export default function AboutPage() {
                   />
                 </div>
                 <h2 className="text-2xl font-bold mb-2 text-white">
-                  Ghussa Bondu
+                  Akash Dhaliwal
                 </h2>
                 <p className="text-blue-400 mb-4">
                   Video Editor & Motion Graphics Designer
