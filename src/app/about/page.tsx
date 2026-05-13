@@ -118,16 +118,19 @@ export default function AboutPage() {
               </h3>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  I specialize in DaVinci Resolve, Premiere Pro, and After
-                  Effects — delivering cinematic edits, clean motion graphics,
-                  and polished visual storytelling. From smooth transitions to
-                  precise audio syncing and dynamic animations — I focus on
-                  making your content not just polished, but powerful.
+                  I am a filmmaker, writer, and video editor focused on creating cinematic visuals that combine emotion, storytelling, and modern creativity.
                 </p>
                 <p>
-                  If you're looking for someone who blends creativity with
-                  technical skill, communicates clearly, and truly cares about
-                  making your content stand out — I'm your guy.
+                  My journey began with a passion for turning ordinary ideas into powerful visual experiences. Over time, that passion evolved into a professional creative vision built on precision, aesthetics, and impactful storytelling.
+                </p>
+                <p>
+                  From cinematic edits and motion graphics to branded content and digital campaigns, I approach every project with a strong attention to detail and a unique creative style. I believe great visuals are not only seen — they are remembered.
+                </p>
+                <p>
+                  Through my work, I aim to create content that captures attention instantly, delivers emotion naturally, and leaves a lasting impression.
+                </p>
+                <p>
+                 Creative Mind. Cinematic Vision. Powerful Storytelling.
                 </p>
               </div>
             </GlassmorphismCard>
