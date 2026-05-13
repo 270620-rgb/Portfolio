@@ -27,7 +27,7 @@ export default function Footer() {
     {
       name: "Facrbook",
       href: "https://www.facebook.com/profile.php?id=61552395771574",
-      icon: Instagram,
+      icon: Facebook,
     },
     {
       name: "LinkedIn",
