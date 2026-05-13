@@ -48,7 +48,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Niloy Bhowmick
+              Akash Dhaliwal
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Video Editor and Motion Graphics Designer passionate about
@@ -121,12 +121,12 @@ export default function Footer() {
           <p className="text-gray-500 text-sm flex items-center justify-center gap-1.5">
             Made with <Heart className="text-red-500 fill-red-500/20" size={14} /> by{" "}
             <a
-              href="https://www.linkedin.com/in/mdmarufsarker/"
+              href="https://honeysoni.rf.gd/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors underline decoration-dotted underline-offset-4"
             >
-              Md. Maruf Sarker
+              Harish Kumar
             </a>{" "}
             © {currentYear}
           </p>
