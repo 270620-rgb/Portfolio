@@ -93,9 +93,9 @@ export default function HomePage() {
               </span>
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-              From smooth transitions to precise audio syncing and dynamic
-              animations — I focus on making your content not just polished, but
-              <span className="text-blue-400 font-medium"> powerful</span>.
+              Turning ordinary ideas into cinematic visual experiences
+that capture attention, create emotion and leave a lasting 
+              <span className="text-blue-400 font-medium"> impact instantly.</span>.
             </p>
           </motion.div>
 
