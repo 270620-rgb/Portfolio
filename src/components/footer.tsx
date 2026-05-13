@@ -30,10 +30,7 @@ export default function Footer() {
       icon: Facebook,
     },
     {
-      name: "LinkedIn",
-      href: "https://www.linkedin.com/in/niloy-bhowmick",
-      icon: Linkedin,
-    },
+
     {
       name: "Email",
       href: "mailto:silentlikhari@gmail.com",
