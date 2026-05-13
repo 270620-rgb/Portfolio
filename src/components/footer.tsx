@@ -25,6 +25,11 @@ export default function Footer() {
       icon: Instagram,
     },
     {
+      name: "Facrbook",
+      href: "https://instagram.com/its.niloybhowmick",
+      icon: Instagram,
+    },
+    {
       name: "LinkedIn",
       href: "https://www.linkedin.com/in/niloy-bhowmick",
       icon: Linkedin,
