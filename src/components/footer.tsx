@@ -30,8 +30,6 @@ export default function Footer() {
       icon: Facebook,
     },
     {
-
-    {
       name: "Email",
       href: "mailto:silentlikhari@gmail.com",
       icon: Mail,
