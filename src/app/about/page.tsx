@@ -118,7 +118,7 @@ export default function AboutPage() {
               </h3>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  I am a filmmaker, writer, and video editor focused on creating cinematic visuals that combine emotion, storytelling, and modern creativity.
+                  I am a video edtor, writer, and filmaker focused on creating cinematic visuals that combine emotion, storytelling, and modern creativity.
                 </p>
                 <p>
                   My journey began with a passion for turning ordinary ideas into powerful visual experiences. Over time, that passion evolved into a professional creative vision built on precision, aesthetics, and impactful storytelling.
