@@ -1,7 +1,7 @@
 import { VideoProject } from "@/types/videos";
 
 export const allVideoProjects: VideoProject[] = [
-  {
+ /* {
     id: "rVVeLdouViU",
     video_title: "একজন ফেসবুক ইঞ্জিনিয়ারের রিজিউমি কেমন হয়?",
     video_description: `How to Build Your Perfect Resume: Learn from a FAANG Employee Example! Are you ready to take your career to new heights and secure your dream job at a top tech company? Join us on this exclusive journey inside the mind of a FAANG employee as we unveil the secrets of their perfect resume! In this eye-opening video, you'll discover the exact strategies and tips used by the industry's finest to stand out from the crowd and impress recruiters.`,
@@ -357,22 +357,25 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Motion Graphics", "Promo"],
     duration: "1:30",
     software_used: ["After effects"],
-  },
+  }, */
+
+/* https://youtu.be/sOldZKx2fII */
+  
   {
-    id: "ppcZHepW7ak",
+    id: "sOldZKx2fII",
     video_title:
-      "The Power of Asking Better Questions | Angela ORR",
-    video_description: `Do you often find yourself stuck in a situation where you're not getting the answers you need because you're not asking the right questions?`,
+      "Story Film TVC Ad | Cinematic Commercial Edit ",
+    video_description: `At Skyline Media, we create compelling visual stories that connect with audiences and bring brands to life through creative filmmaking and professional editing.`,
     tags: ["Stress Relief", "Mental Health", "Wellness"],
-    cover_image: "ppcZHepW7ak",
-    publish_date: "2025-08-02",
+    cover_image: "sOldZKx2fII",
+    publish_date: "2026-06-04",
     client_name: "Growthleo",
     client_image: "/companies/growthleo.png",
     client_feedback: "",
-    video_link: "https://youtu.be/ppcZHepW7ak",
+    video_link: "https://youtu.be/sOldZKx2fII",
     project_images: [],
     category: ["Talking Head", "Explainer"],
-    duration: "8:22",
+    duration: "3:30",
     software_used: ["Davinci Resolve"],
   },
 ];
