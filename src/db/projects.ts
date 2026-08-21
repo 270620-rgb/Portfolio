@@ -316,28 +316,31 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Motion Graphics", "Promo"],
     duration: "1:21",
     software_used: ["After effects"],
-  },
+  }, */
+
+/*https://youtu.be/cXI0dHzR3dQ */
+  
   {
-    id: "byQmrdAwFK8",
-    video_title: "Digital Marketing",
-    video_description: `ভিজিটর আসছে, কিন্তু কাস্টমার হচ্ছে না? সমস্যা প্রোডাক্টে না, মার্কেটিং সিস্টেমে।`,
+    id: "cXI0dHzR3dQ",
+    video_title: "Promotional edit",
+    video_description: `This video is part of Skyline Media's creative portfolio, showcasing professional video editing and promotional content created for the healthcare industry.`,
     tags: [
       "Marketing Strategy",
       "Conversion Optimization",
       "Business Growth",
       "Ads",
     ],
-    cover_image: "byQmrdAwFK8",
-    publish_date: "2025-07-25",
+    cover_image: "cXI0dHzR3dQ",
+    publish_date: "2026-06-07",
     client_name: "Impel IT",
     client_image: "/companies/impel-it.png",
     client_feedback: "",
-    video_link: "https://youtu.be/byQmrdAwFK8",
+    video_link: "https://youtu.be/cXI0dHzR3dQ",
     project_images: [],
     category: ["Motion Graphics", "Promo"],
-    duration: "1:22",
-    software_used: ["After effects"],
-  }, */
+    duration: "1:12",
+    software_used: ["Capcut"],
+  }, 
 
 /*https://youtu.be/uc6apZaiCfQ*/
   
