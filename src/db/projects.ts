@@ -337,27 +337,29 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Motion Graphics", "Promo"],
     duration: "1:22",
     software_used: ["After effects"],
-  },
+  }, */
+
+/*https://youtu.be/uc6apZaiCfQ*/
+  
   {
-    id: "M9znCGjupcY",
-    video_title: "Cyber Security",
-    video_description: `জাস্ট একটা wrong ক্লিক, অথবা unknown  লিংক… আর মুহূর্তেই আপনার বিজনেস হতে পারে সাইবার হ্যাকের এর  শিকার।`,
+    id: "uc6apZaiCfQ",
+    video_title: "Commercial Edit",
+    video_description: `This video is part of Skyline Media's creative portfolio, showcasing a cinematic TV commercial-style edit inspired by the iconic Royal Enfield riding experience.`,
     tags: [
-      "Cyber Security",
-      "Protection",
+      "Commercial",
       "Ads",
     ],
-    cover_image: "M9znCGjupcY",
-    publish_date: "2025-08-01",
+    cover_image: "uc6apZaiCfQ",
+    publish_date: "2026-06-07",
     client_name: "Impel IT",
     client_image: "/companies/impel-it.png",
     client_feedback: "",
-    video_link: "https://youtu.be/M9znCGjupcY",
+    video_link: "https://youtu.be/uc6apZaiCfQ",
     project_images: [],
     category: ["Motion Graphics", "Promo"],
-    duration: "1:30",
+    duration: "0:34",
     software_used: ["After effects"],
-  }, */
+  }, 
 
 /* https://youtu.be/sOldZKx2fII */
   
