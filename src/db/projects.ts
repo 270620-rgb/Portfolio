@@ -300,21 +300,25 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Motion Graphics"],
     duration: "0:22",
     software_used: ["After Effects"],
-  },
+  }, */
+
+/* https://youtube.com/shorts/svPVus6fRFY */
+
+ 
   {
-    id: "TInQK-60l2A",
-    video_title: "Web & E-commerce Store Development",
-    video_description: `ওয়েবসাইট হতে হয় ফাস্ট, স্মার্ট, ও ইনটুইটিভ — যাতে বাড়ে ব্যবসার conversion.`,
+    id: "svPVus6fRFY",
+    video_title: "Digjam Professional Brand Edit",
+    video_description: `Digjam Professional Brand Edit`,
     tags: ["Web Development", "E-commerce", "Business Website", "Promo"],
-    cover_image: "TInQK-60l2A",
-    publish_date: "2025-07-24",
+    cover_image: "svPVus6fRFY",
+    publish_date: "2026-07-24",
     client_name: "Impel IT",
     client_image: "/companies/impel-it.png",
     client_feedback: "",
-    video_link: "https://youtu.be/TInQK-60l2A",
+    video_link: "https://youtube.com/shorts/svPVus6fRFY",
     project_images: [],
     category: ["Motion Graphics", "Promo"],
-    duration: "1:21",
+    duration: "0:21",
     software_used: ["After effects"],
   }, */
 
