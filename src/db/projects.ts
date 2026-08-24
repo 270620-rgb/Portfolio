@@ -320,7 +320,7 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Motion Graphics", "Promo"],
     duration: "0:21",
     software_used: ["After effects"],
-  }, */
+  }, 
 
 /*https://youtu.be/cXI0dHzR3dQ */
   
