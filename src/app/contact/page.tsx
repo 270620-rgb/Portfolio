@@ -28,7 +28,7 @@ export default function ContactPage() {
       return;
     }
 
-    if (!message || message.length < 30) {
+    if (!message || message.length < 5) {
       toast("Message should be at least 30 characters long.");
       return;
     }
@@ -292,7 +292,7 @@ export default function ContactPage() {
                 <p className="text-gray-400 text-sm text-center">
                   Prefer to chat directly? Reach out on{" "}
                   <a
-                    href="https://wa.me/+8801580385556"
+                    href="https://wa.me/+916239936247"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-400 hover:text-green-300"
