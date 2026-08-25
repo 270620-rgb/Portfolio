@@ -185,10 +185,13 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Shorts", "Promo"],
     duration: "1:21",
     software_used: ["Davinci Resolve", "After Effects"],
-  },
+  }, */
+
+
+  /* https://youtu.be/OlXUaax0NBo */
   {
-    id: "kpJyIq-mvtc",
-    video_title: "EduNurture360 কি? | Edu Bridge Academy",
+    id: "OlXUaax0NBo",
+    video_title: "Best Car Care | Professional Automotive Video",
     video_description: "শুরু হয়ে গেছে EduNurture360 এর ২০২৪ সালের ব্যাচ!",
     tags: [
       "Education",
@@ -196,89 +199,100 @@ export const allVideoProjects: VideoProject[] = [
       "Bangla Voiceover",
       "Brand Awareness",
     ],
-    cover_image: "kpJyIq-mvtc",
-    publish_date: "2024-02-01",
+    cover_image: "OlXUaax0NBo",
+    publish_date: "2026-08-21",
     client_name: "Edu Bridge Academy",
     client_image: "/companies/edu-bridge-academy.jpg",
     client_feedback: "",
-    video_link: "https://youtu.be/kpJyIq-mvtc?si=wdURtwH9HI1FZmOR",
+    video_link: "https://youtu.be/OlXUaax0NBo",
     project_images: [],
     category: ["Promo", "Motion Graphics"],
-    duration: "1:28",
+    duration: "0:33",
     software_used: ["After Effects"],
   },
+
+
+  /* https://www.youtube.com/shorts/6oMcKo2dZqg */
   {
-    id: "w72TzfYIsgU",
+    id: "6oMcKo2dZqg",
     video_title:
-      "Bangladesh’s First Flexible Discount for EdTech – Learn Without Limits!",
-    video_description: `Bangladesh's First Flexible Discount for EdTech – Learn Without Limits!`,
+      "Gym Promotional Video Edit",
+    video_description: `This video is part of Skyline Media's creative portfolio and showcases our professional video editing skills for the fitness industry.`,
     tags: ["EdTech", "Product Launch", "Education Innovation", "Motion Promo"],
-    cover_image: "w72TzfYIsgU",
-    publish_date: "2025-01-19",
+    cover_image: "6oMcKo2dZqg",
+    publish_date: "2026-07-19",
     client_name: "Stack Learner",
     client_image: "/companies/sl-logo.png",
     client_feedback: "",
-    video_link: "https://youtu.be/w72TzfYIsgU?si=50Iu8TME6mC4iH8z",
+    video_link: "https://www.youtube.com/shorts/6oMcKo2dZqg",
     project_images: [],
     category: ["Promo", "Motion Graphics"],
-    duration: "1:29",
+    duration: "0:49",
     software_used: ["After Effect"],
   },
+
+/* https://www.youtube.com/shorts/EigKkD3RnXs */
   {
-    id: "Y3lWN7oFkpw",
-    video_title: "EcoRevolution Documentary",
+    id: "EigKkD3RnXs",
+    video_title: "OKMONT FINANCE | Professional Finance Video Ad",
     video_description:
-      "A compelling documentary exploring environmental sustainability and the revolution towards eco-friendly practices in modern society.",
+      "A professionally crafted promotional video created for OKMONT Finance, designed to communicate financial services with a clean, modern, and engaging visual style.",
     tags: ["Environment", "Sustainability", "Green Revolution", "Documentary"],
-    cover_image: "Y3lWN7oFkpw",
-    publish_date: "2024-04-12",
+    cover_image: "EigKkD3RnXs",
+    publish_date: "2026-07-12",
     client_name: "EcoRevolution",
     client_image: "/companies/eco-revolution.jpg",
     client_feedback: "",
-    video_link: "https://youtu.be/Y3lWN7oFkpw",
+    video_link: "https://www.youtube.com/shorts/EigKkD3RnXs",
     project_images: [],
     category: ["Documentary", "Motion Graphics"],
-    duration: "3:51",
+    duration: "0:51",
     software_used: ["After Effects"],
   },
+
+
+  /* https://www.youtube.com/shorts/W6SQGDt9nUQ */
   {
-    id: "MCD9uyZT8Y0",
-    video_title: "প্রোগ্রামিং এর ফান্ডামেন্টাল শেখা কেন জরুরী?",
-    video_description: `ফান্ডামেন্টাল না শিখে কাজ শেখা শুরু করলে কেন সমস্যা হয়—এই ভিডিওতে জানুন।`,
+    id: "W6SQGDt9nUQ",
+    video_title: "DIGJAM Professional Brand Video",
+    video_description: `A professionally crafted video project created for DIGJAM, featuring clean visual storytelling, engaging editing, and a premium brand-focused presentation.`,
     tags: [
       "Programming Basics",
       "Education",
       "Beginner Tips",
       "Explainer Video",
     ],
-    cover_image: "MCD9uyZT8Y0",
-    publish_date: "2024-01-19",
+    cover_image: "W6SQGDt9nUQ",
+    publish_date: "2026-08-19",
     client_name: "Stack Learner",
     client_image: "/companies/sl-logo.png",
     client_feedback:
       "Fantastic work! Made complex topics easy to understand with great visuals. The explainer video helped our students grasp fundamental concepts much better.",
-    video_link: "https://youtu.be/MCD9uyZT8Y0?si=W6HDf429dZo7hSQM",
+    video_link: "https://www.youtube.com/shorts/W6SQGDt9nUQ",
     project_images: [],
     category: ["Explainer", "Motion Graphics"],
-    duration: "2:43",
-    software_used: ["Davinci Resolve"],
+    duration: "0:43",
+    software_used: ["Capcut"],
   },
+
+
+/* https://www.youtube.com/shorts/dDD3Ms_eAN0 */
   {
-    id: "i2JZPZ-a_tc",
+    id: "dDD3Ms_eAN0",
     video_title: "Business Email Service",
-    video_description: `একটি ভুল ইমেইল কনফিগারেশনের কারণে নষ্ট হতে পারে আপনার সবচেয়ে valuable ক্লায়েন্ট ও ব্যবসার সুনাম।`,
+    video_description: `A professionally crafted travel video created for Dream Vacations, showcasing an engaging working style with dynamic editing, smooth transitions, and visually appealing storytelling.`,
     tags: ["Business IT", "Email Setup", "IT Services", "Promo Video"],
     cover_image: "i2JZPZ-a_tc",
-    publish_date: "2025-07-23",
+    publish_date: "2026-07-23",
     client_name: "Impel IT",
     client_image: "/companies/impel-it.png",
     client_feedback: "",
-    video_link: "https://youtu.be/i2JZPZ-a_tc",
+    video_link: "https://www.youtube.com/shorts/dDD3Ms_eAN0",
     project_images: [],
     category: ["Motion Graphics", "Promo"],
     duration: "1:28",
     software_used: ["After effects"],
-  }, */
+  },
 
  
  /* https://www.youtube.com/shorts/Xoe2BWgXObQ */
