@@ -237,11 +237,11 @@ export default function ContactPage() {
                   >
                     <option value="">Select project type</option>
                     <option value="youtube">YouTube Video</option>
-                    <option value="social-media">Social Media Content</option>
-                    <option value="promo">Promotional Video</option>
-                    <option value="tutorial">Tutorial/Course</option>
+                    <option value="social-media content">Social Media Content</option>
+                    <option value="promotional video">Promotional Video</option>
+                    <option value="tutorial course">Tutorial/Course</option>
                     <option value="documentary">Documentary</option>
-                    <option value="animation">Logo Animation</option>
+                    <option value="Logo animation">Logo Animation</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
@@ -251,14 +251,14 @@ export default function ContactPage() {
                     htmlFor="timeline"
                     className="text-sm text-gray-300 mb-2 block"
                   >
-                    Timeline
+                    Phone Number(whatsaap)
                   </label>
                   <Input
                     id="timeline"
                     name="timeline"
                     type="text"
                     className="bg-gray-800/50 border-gray-600 text-white"
-                    placeholder="e.g., 1 week, ASAP"
+                    placeholder="XXXXXXXXXX"
                   />
                 </div>
 
