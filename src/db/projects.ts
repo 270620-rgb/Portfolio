@@ -278,33 +278,34 @@ export const allVideoProjects: VideoProject[] = [
     category: ["Motion Graphics", "Promo"],
     duration: "1:28",
     software_used: ["After effects"],
-  },
+  }, */
+
+ 
+ /* https://www.youtube.com/shorts/Xoe2BWgXObQ */
   {
-    id: "H29MJ6vLbcg",
-    video_title: "Stack Learner Brand Intro",
+    id: "Xoe2BWgXObQ",
+    video_title: "Professional Educational Content",
     video_description:
-      "Professional brand introduction animation for Stack Learner with modern motion graphics and smooth transitions.",
+      "A professionally crafted video created for UIIT, featuring clean editing, engaging visuals, smooth transitions, and a modern educational presentation.",
     tags: [
       "Brand Animation",
       "Logo Reveal",
       "Motion Graphics",
       "Brand Identity",
     ],
-    cover_image: "H29MJ6vLbcg",
-    publish_date: "2024-04-12",
+    cover_image: "Xoe2BWgXObQ",
+    publish_date: "2026-07-12",
     client_name: "Stack Learner",
     client_image: "/companies/sl-logo.png",
     client_feedback: "",
-    video_link: "https://youtu.be/H29MJ6vLbcg",
+    video_link: "https://youtu.be/shorts/Xoe2BWgXObQ",
     project_images: [],
     category: ["Motion Graphics"],
     duration: "0:22",
     software_used: ["After Effects"],
-  }, */
+  }, 
 
 /* https://youtube.com/shorts/svPVus6fRFY */
-
- 
   {
     id: "svPVus6fRFY",
     video_title: "Digjam Professional Brand Edit",
