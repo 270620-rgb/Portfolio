@@ -10,23 +10,43 @@ import GlassmorphismCard from "@/components/glassmorphism-card";
 const graphics = [
   {
     id: 1,
-    src: "/graphicpost/image1.png",
+    src: "/graphicpost/graphic1.jpeg",
     title: "Creative Design 01",
   },
   {
     id: 2,
-    src: "/graphicpost/image2.png",
+    src: "/graphicpost/graphic2.jpeg",
     title: "Creative Design 02",
   },
   {
     id: 3,
-    src: "/graphicpost/image3.png",
+    src: "/graphicpost/graphic3.jpeg",
     title: "Creative Design 03",
   },
   {
     id: 4,
-    src: "/graphicpost/image4.jpg",
+    src: "/graphicpost/graphic4.jpeg",
     title: "Creative Design 04",
+  },
+  {
+    id: 5,
+    src: "/graphicpost/graphic5.jpeg",
+    title: "Creative Design 05",
+  },
+  {
+    id: 6,
+    src: "/graphicpost/graphic6.jpeg",
+    title: "Creative Design 06",
+  },
+  {
+    id: 7,
+    src: "/graphicpost/graphic7.jpeg",
+    title: "Creative Design 07",
+  },
+  {
+    id: 8,
+    src: "/graphicpost/graphic8.jpeg",
+    title: "Creative Design 08",
   },
   // Add more images here
 ];
