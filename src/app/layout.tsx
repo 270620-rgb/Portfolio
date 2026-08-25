@@ -14,13 +14,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
-    template: "%s | Niloy Bhowmick",
+    default: "Akash Dhaliwal – Video Editor & Motion Graphics Designer",
+    template: "%s | Akash Dhaliwal",
   },
   description:
-    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Niloy Bhowmick specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
+    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Akash Dhaliwal specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
   keywords: [
-    "Niloy Bhowmick",
+    "Akash Dhaliwal",
     "Video Editor",
     "Motion Graphics Designer",
     "DaVinci Resolve",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     "Lower Thirds",
     "Audio Sync",
   ],
-  authors: [{ name: "Niloy Bhowmick", url: "https://www.itsniloy.me" }],
-  creator: "Niloy Bhowmick",
-  publisher: "Niloy Bhowmick",
+  authors: [{ name: "Akash Dhaliwal", url: "https://akashdhaliwal.vercel.app/" }],
+  creator: "Akash Dhaliwal",
+  publisher: "Akash Dhaliwal",
   robots: {
     index: true,
     follow: true,
@@ -55,33 +55,33 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.itsniloy.me",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    url: "https://akashdhaliwal.vercel.app/",
+    title: "Akash Dhaliwal – Video Editor & Motion Graphics Designer",
     description:
       "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
-    siteName: "Niloy Bhowmick Portfolio",
+    siteName: "Akash Dhaliwal Portfolio",
     images: [
       {
-        url: "/niloybhowmick.png",
+        url: "/aka1.png",
         width: 1200,
         height: 630,
-        alt: "Niloy Bhowmick - Video Editor",
+        alt: "Akash Dhaliwal - Video Editor",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    title: "Akash Dhaliwal – Video Editor & Motion Graphics Designer",
     description:
       "Crafting cinematic edits, motion graphics, and powerful stories. Let's make your content stand out.",
-    creator: "@niloy_bhowmick", // update if you have a real Twitter handle
-    images: ["/niloybhowmick.png"],
+    creator: "", // update if you have a real Twitter handle
+    images: ["/aka1.png"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://www.itsniloy.me",
+    canonical: "https://akashdhaliwal.vercel.app/",
   },
   category: "Video Editing",
 };
@@ -103,9 +103,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Niloy Bhowmick",
-              url: "https://www.itsniloy.me",
-              image: "/niloybhowmick.png",
+              name: "Akash Dhaliwal",
+              url: "https://akashdhaliwal.vercel.app",
+              image: "/aka1.png",
               sameAs: [
                 "https://www.itsniloy.me",
                 "https://linkedin.com/in/niloybhowmick", // update if available
@@ -128,7 +128,7 @@ export default function RootLayout({
               },
               alumniOf: {
                 "@type": "Organization",
-                name: "Green University of Bangladesh",
+                name: "Punjabi University, Patiala",
               },
             }),
           }}
