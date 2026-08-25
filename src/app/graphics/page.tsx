@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { X } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import CTASection from "@/components/CTASection";
 import GlassmorphismCard from "@/components/glassmorphism-card";
 
@@ -48,11 +48,61 @@ const graphics = [
     src: "/graphicpost/graphic8.jpeg",
     title: "Creative Design 08",
   },
-  // Add more images here
 ];
 
 export default function GraphicsPage() {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+
+  const isOpen = selectedIndex !== null;
+
+  const goToPrevious = () => {
+    if (selectedIndex === null) return;
+
+    setSelectedIndex(
+      selectedIndex === 0 ? graphics.length - 1 : selectedIndex - 1
+    );
+  };
+
+  const goToNext = () => {
+    if (selectedIndex === null) return;
+
+    setSelectedIndex(
+      selectedIndex === graphics.length - 1 ? 0 : selectedIndex + 1
+    );
+  };
+
+  const closeGallery = () => {
+    setSelectedIndex(null);
+  };
+
+  // Keyboard navigation
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "ArrowLeft") {
+        goToPrevious();
+      }
+
+      if (event.key === "ArrowRight") {
+        goToNext();
+      }
+
+      if (event.key === "Escape") {
+        closeGallery();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    // Prevent background scrolling
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [isOpen, selectedIndex]);
 
   return (
     <div className="min-h-screen py-20 px-4">
@@ -90,7 +140,7 @@ export default function GraphicsPage() {
                 }}
                 whileHover={{ y: -6 }}
                 className="group cursor-pointer"
-                onClick={() => setSelectedImage(graphic.src)}
+                onClick={() => setSelectedIndex(index)}
               >
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-black/30 border border-white/10">
                   <Image
@@ -106,6 +156,7 @@ export default function GraphicsPage() {
                       <h3 className="text-white font-semibold text-lg">
                         {graphic.title}
                       </h3>
+
                       <p className="text-gray-300 text-sm mt-1">
                         Click to view
                       </p>
@@ -116,13 +167,6 @@ export default function GraphicsPage() {
             ))}
           </div>
         </GlassmorphismCard>
-
-        {/* Empty State */}
-        {graphics.length === 0 && (
-          <div className="text-center py-20 text-gray-400">
-            No graphics available yet.
-          </div>
-        )}
 
         {/* CTA */}
         <div className="mt-16">
@@ -135,42 +179,114 @@ export default function GraphicsPage() {
         </div>
       </div>
 
-      {/* Lightbox */}
+      {/* Fullscreen Gallery */}
       <AnimatePresence>
-        {selectedImage && (
+        {selectedIndex !== null && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4"
-            onClick={() => setSelectedImage(null)}
+            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-md"
+            onClick={closeGallery}
           >
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedImage(null)}
-              className="absolute top-5 right-5 z-50 text-white/70 hover:text-white transition-colors"
-              aria-label="Close image"
-            >
-              <X size={32} />
-            </button>
-
             {/* Image */}
             <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
+              key={selectedIndex}
+              initial={{ opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.96 }}
               transition={{ duration: 0.25 }}
-              className="relative w-full max-w-5xl h-[85vh]"
+              className="absolute inset-0 flex items-center justify-center p-6 md:p-16"
               onClick={(e) => e.stopPropagation()}
             >
-              <Image
-                src={selectedImage}
-                alt="Graphic preview"
-                fill
-                className="object-contain"
-                sizes="100vw"
-              />
+              <div className="relative w-full h-full max-w-6xl">
+                <Image
+                  src={graphics[selectedIndex].src}
+                  alt={graphics[selectedIndex].title}
+                  fill
+                  className="object-contain"
+                  sizes="100vw"
+                  priority
+                />
+              </div>
             </motion.div>
+
+            {/* Previous Button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                goToPrevious();
+              }}
+              className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-50
+                w-12 h-12 md:w-14 md:h-14
+                rounded-full
+                bg-white/10 hover:bg-white/20
+                border border-white/10
+                backdrop-blur-md
+                flex items-center justify-center
+                text-white
+                transition-all duration-300
+                hover:scale-110"
+              aria-label="Previous image"
+            >
+              <ChevronLeft size={28} />
+            </button>
+
+            {/* Next Button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                goToNext();
+              }}
+              className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-50
+                w-12 h-12 md:w-14 md:h-14
+                rounded-full
+                bg-white/10 hover:bg-white/20
+                border border-white/10
+                backdrop-blur-md
+                flex items-center justify-center
+                text-white
+                transition-all duration-300
+                hover:scale-110"
+              aria-label="Next image"
+            >
+              <ChevronRight size={28} />
+            </button>
+
+            {/* Bottom Left Controls */}
+            <div
+              className="absolute bottom-5 left-5 md:bottom-8 md:left-8 z-50 flex items-center gap-3"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Close */}
+              <button
+                onClick={closeGallery}
+                className="flex items-center gap-2
+                  px-4 py-2.5
+                  rounded-full
+                  bg-white/10 hover:bg-white/20
+                  border border-white/10
+                  backdrop-blur-md
+                  text-white
+                  transition-all duration-300
+                  hover:scale-105"
+              >
+                <X size={20} />
+                <span className="text-sm font-medium">Close</span>
+              </button>
+
+              {/* Counter */}
+              <div className="px-4 py-2.5 rounded-full bg-white/10 border border-white/10 backdrop-blur-md text-gray-300 text-sm">
+                {selectedIndex + 1} / {graphics.length}
+              </div>
+            </div>
+
+            {/* Image Title */}
+            <div className="absolute bottom-6 md:bottom-9 left-1/2 -translate-x-1/2 z-50 hidden sm:block">
+              <p className="text-white/80 text-sm md:text-base">
+                {graphics[selectedIndex].title}
+              </p>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
