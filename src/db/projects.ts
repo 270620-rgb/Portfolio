@@ -192,7 +192,7 @@ export const allVideoProjects: VideoProject[] = [
   {
     id: "OlXUaax0NBo",
     video_title: "Best Car Care | Professional Automotive Video",
-    video_description: "শুরু হয়ে গেছে EduNurture360 এর ২০২৪ সালের ব্যাচ!",
+    video_description: "A professionally crafted automotive promotional video created for Best Car Care, combining dynamic editing, engaging visuals, and a clean brand-focused presentation.",
     tags: [
       "Education",
       "Institute Promo",
