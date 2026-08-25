@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
 
     // Google Apps Script URL
     const googleSheetsUrl =
-      "https://script.google.com/macros/s/AKfycbx4XKVWkRpjAszhfQoUksTl5g0y_S1HuhPUENuH1F0ed3QhOFLPGzHhf5fpGFqgHWh/exec";
+      "https://script.google.com/macros/s/AKfycbx4XKVWkRpjAszhfQoUksTl5g0y_S1HuhPUENuH1F0ed3QhOFLPGzHhf5fpGFqgHWhdLA/exec";
 
     // Send data to Google Sheets
     const response = await fetch(googleSheetsUrl, {
