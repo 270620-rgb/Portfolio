@@ -95,7 +95,7 @@ export default function HomePage() {
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
               Turning ordinary ideas into cinematic visual experiences
 that capture attention, create emotion and leave a lasting 
-              <span className="text-blue-400 font-medium"> impact instantly.</span>.
+              <span className="text-blue-400 font-medium"> impact instantly.</span>
             </p>
           </motion.div>
 
