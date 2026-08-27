@@ -257,7 +257,7 @@ that capture attention, create emotion and leave a lasting
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
               If you're looking for someone who blends creativity with technical
-              skill, communicates clearly, and truly cares about results.
+              skill, communicates clearly and truly cares about results.
             </p>
           </motion.div>
 
