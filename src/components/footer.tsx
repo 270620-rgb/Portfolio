@@ -41,7 +41,7 @@ export default function Footer() {
               Akash Dhaliwal
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Filmmaker, Writer & Video Editor creating cinematic visuals, powerful storytelling, and emotionally engaging content with creativity, style and precision. 🎬🔥
+              Filmmaker, Writer & Video Editor creating cinematic visuals, powerful storytelling and emotionally engaging content with creativity, style and precision. 🎬🔥
             </p>
           </div>
 
