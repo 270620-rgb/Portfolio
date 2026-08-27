@@ -54,7 +54,7 @@ export default function AboutPage() {
                   Video Editor & Motion Graphics Designer
                 </p>
                 <p className="text-gray-400 text-sm mb-6">
-                  Turning raw footage into visual stories with style, precision,
+                  Turning raw footage into visual stories with style, precision
                   and cinematic magic.
                 </p>
 
@@ -118,16 +118,16 @@ export default function AboutPage() {
               </h3>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  I am a video edtor, writer, and filmaker focused on creating cinematic visuals that combine emotion, storytelling, and modern creativity.
+                  I am a video edtor, writer and filmaker focused on creating cinematic visuals that combine emotion, storytelling and modern creativity.
                 </p>
                 <p>
-                  My journey began with a passion for turning ordinary ideas into powerful visual experiences. Over time, that passion evolved into a professional creative vision built on precision, aesthetics, and impactful storytelling.
+                  My journey began with a passion for turning ordinary ideas into powerful visual experiences. Over time, that passion evolved into a professional creative vision built on precision, aesthetics and impactful storytelling.
                 </p>
                 <p>
                   From cinematic edits and motion graphics to branded content and digital campaigns, I approach every project with a strong attention to detail and a unique creative style. I believe great visuals are not only seen — they are remembered.
                 </p>
                 <p>
-                  Through my work, I aim to create content that captures attention instantly, delivers emotion naturally, and leaves a lasting impression.
+                  Through my work, I aim to create content that captures attention instantly, delivers emotion naturally and leaves a lasting impression.
                 </p>
                 <p>
                  Creative Mind. Cinematic Vision. Powerful Storytelling.
